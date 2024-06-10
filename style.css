@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(3, 6, 55);
+    text-align: center;
+    margin: 0;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    
+    width: 100%;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  p{
+    font-size: medium;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: 
+    rgb(145, 10, 103); 
+    padding: 0px 20px; 
+    text-align: center;
+  }
+  .rubik-mono-one-regular, h1, h2{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: rgb(145, 10, 103);
+  }
+  .skillz-container {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 10px;
+  }
+  .headertiles{
+    
+    grid-column: span 2;
+    grid-column-start: 2;
+  }
+  .skillz-item-jpg {
+    border-radius: 5px;
+  }
+
+
